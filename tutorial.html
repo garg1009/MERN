@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Code</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+        /* .navbar {
+            position: fixed;
+            width: 100%;
+        } */
+   
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            /* border: 1px solid #ddd; */
+            box-shadow: 0 0 10px 1px violet;
+            padding-bottom: 4.74rem;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        code,
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            display: block;
+            margin: 20px 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        h2 {
+            color:violet;
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin: 20px 0;
+        }
+
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 30px 0;
+        }
+
+        .example {
+            background-color: #e6f7ff;
+            border-left: 4px solid #1e90ff;
+            padding: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <a href="index.html" style="text-decoration: none;"><span class="logo"> &lt;/&gt;Lets Code </span></a>
+                <ul class="hide">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./tutorial.html">Tutorial</a></li>
+                    <li><a href="./About.html">About Us</a></li>
+                    <li><a href="./Contact.html">Contact Us</a></li>
+                    <li><a href="./signin.html">Sign In</a></li>
+                </ul>
+                <div class="username"><span>Username</span></div>
+            </div>
+        </nav>
+        
+            <div class="navbar1">
+                <ul class="hide">
+                    <li><a href="#main-tutorial">Html</a></li>
+                    <li><a href="#">Css</a></li>
+                    <li><a href="#">Js ES-6</a></li>
+                    <li><a href="#">Tailwind Css</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                    <li><a href="#">JQuery</a></li>
+                    <li><a href="#">Typescript</a></li>
+                    <li><a href="#">React js</a></li>
+                    <li><a href="#">Node js</a></li>
+                    <li><a href="#">Express js</a></li>
+                    <li><a href="#">MongoDB</a></li>
+
+                </ul>
+                <!-- <div class="username"><span>Username</span></div> -->
+            </div>
+        
+    </header>
+
+    <main id="main-tutorial">
+        <div class="container">
+            <h1>HTML Tutorial</h1> <br>
+            <iframe width="100%" height="445"
+                src="https://www.youtube.com/embed/HcOc7P5BMi4?si=MWoeRCbnkPaDRNvD&amp;start=85"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>1. Introduction to HTML</h2>
+            <p>HTML (HyperText Markup Language) is the foundation of all web pages. It defines the structure of web
+                content using various elements and tags. Let’s start by understanding the basic structure of an HTML
+                document:</p>
+
+            <code>
+          &lt;!DOCTYPE html&gt;<br>
+          &lt;html lang="en"&gt;<br>
+          &nbsp;&nbsp;&lt;head&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Page Title&lt;/title&gt;<br>
+          &nbsp;&nbsp;&lt;/head&gt;<br>
+          &nbsp;&nbsp;&lt;body&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome to My Website&lt;/h1&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is a simple paragraph.&lt;/p&gt;<br>
+          &nbsp;&nbsp;&lt;/body&gt;<br>
+          &lt;/html&gt;
+        </code>
+
+            <h2>2. Common HTML Tags</h2>
+            <p>HTML uses various tags to define different types of content. Below are some common HTML tags:</p>
+
+            <ul>
+                <li><code>&lt;h1&gt;&lt;/h1&gt;</code> - Defines a main heading</li>
+                <li><code>&lt;p&gt;&lt;/p&gt;</code> - Defines a paragraph</li>
+                <li><code>&lt;img&gt;</code> - Embeds an image</li>
+                <li><code>&lt;a&gt;&lt;/a&gt;</code> - Defines a hyperlink</li>
+                <li><code>&lt;ul&gt;&lt;/ul&gt;</code> and <code>&lt;li&gt;&lt;/li&gt;</code> - Defines an unordered
+                    list and list items</li>
+                <li><code>&lt;table&gt;&lt;/table&gt;</code> - Creates a table</li>
+            </ul>
+
+            <h2>3. Attributes</h2>
+            <p>HTML tags often have attributes that provide additional information. For example:</p>
+
+            <code>
+          &lt;a href="https://example.com"&gt;Click here&lt;/a&gt;
+        </code>
+
+            <p>In this example, the <code>href</code> attribute of the <code>&lt;a&gt;</code> tag defines the URL that
+                the link will point to.</p>
+
+            <h2>4. Multimedia Elements</h2>
+            <p>HTML allows you to embed multimedia like images and videos using specific tags. Here are examples:</p>
+
+            <p><b>Embedding an image:</b></p>
+            <code>&lt;img src="image.jpg" alt="Description of image" width="500"&gt;</code>
+
+            <p><b>Embedding a video:</b></p>
+            <code>&lt;video controls width="600"&gt;<br>
+          &nbsp;&nbsp;&lt;source src="video.mp4" type="video/mp4"&gt;<br>
+          &lt;/video&gt;
+        </code>
+
+            <h2>5. Links and Navigation</h2>
+            <p>Links are fundamental to the web. They allow users to navigate between pages. Here’s how to create a
+                link:</p>
+
+            <code>
+          &lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+        </code>
+
+            <h2>6. Tables</h2>
+            <p>Tables are useful for displaying data. Here’s a simple example of an HTML table:</p>
+
+            <code>
+          &lt;table border="1"&gt;<br>
+          &nbsp;&nbsp;&lt;tr&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Age&lt;/th&gt;<br>
+          &nbsp;&nbsp;&lt;/tr&gt;<br>
+          &nbsp;&nbsp;&lt;tr&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;John&lt;/td&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;30&lt;/td&gt;<br>
+          &nbsp;&nbsp;&lt;/tr&gt;<br>
+          &lt;/table&gt;
+        </code>
+
+            <h2>7. HTML Forms</h2>
+            <p>Forms allow users to submit data to a server. Here’s a simple form example:</p>
+
+            <code>
+          &lt;form action="submit-form.php" method="post"&gt;<br>
+          &nbsp;&nbsp;&lt;label for="name"&gt;Name:&lt;/label&gt;<br>
+          &nbsp;&nbsp;&lt;input type="text" id="name" name="name"&gt;&lt;br&gt;<br>
+          &nbsp;&nbsp;&lt;label for="email"&gt;Email:&lt;/label&gt;<br>
+          &nbsp;&nbsp;&lt;input type="email" id="email" name="email"&gt;&lt;br&gt;<br>
+          &nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+          &lt;/form&gt;
+        </code>
+
+            <h2>8. HTML5 Semantic Elements</h2>
+            <p>HTML5 introduces semantic elements that provide better structure to your pages:</p>
+
+            <ul>
+                <li><code>&lt;header&gt;</code> - Defines the header of a page</li>
+                <li><code>&lt;footer&gt;</code> - Defines the footer</li>
+                <li><code>&lt;article&gt;</code> - Represents an independent piece of content</li>
+                <li><code>&lt;section&gt;</code> - Defines a section in a document</li>
+            </ul>
+
+            <h2>9. Example: Full HTML Document</h2>
+            <p>Here’s a complete example of an HTML document:</p>
+
+            <code>
+          &lt;!DOCTYPE html&gt;<br>
+          &lt;html lang="en"&gt;<br>
+          &nbsp;&nbsp;&lt;head&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My Web Page&lt;/title&gt;<br>
+          &nbsp;&nbsp;&lt;/head&gt;<br>
+          &nbsp;&nbsp;&lt;body&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt;&lt;h1&gt;Welcome to My Website&lt;/h1&gt;&lt;/header&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is a simple HTML document.&lt;/p&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;footer&gt;&lt;p&gt;Copyright 2024&lt;/p&gt;&lt;/footer&gt;<br>
+          &nbsp;&nbsp;&lt;/body&gt;<br>
+          &lt;/html&gt;
+        </code>
+
+            <hr>
+
+            <h2>Additional Resources</h2>
+            <p>If you want to learn more about HTML, check out these resources:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a>
+                </li>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></li>
+                <li><a href="https://www.freecodecamp.org/learn/" target="_blank">FreeCodeCamp HTML Course</a></li>
+            </ul>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <img src="./footer.jpeg" alt="">
+            <span id="ftr"> Lets Code| <span id="ftr2">Copyright &#169 2024 LetsCode.com</span> </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
